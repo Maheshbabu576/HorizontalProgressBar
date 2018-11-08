@@ -10,19 +10,19 @@ import UIKit
 
 public class HorizontalProgressbar: UIView {
     
-   public var arrProgressChunks = [UIView]() //To generate dymanic Chunks under progressbar
+   internal var arrProgressChunks = [UIView]() //To generate dymanic Chunks under progressbar
    public var progressTintColor : UIColor!   //Progressbar Tint color
    public var trackTintColor : UIColor!      //Progressbar track color
           var hideWhenStopped : Bool!
           var isAnimating : Bool!
-   public let kChunkWdith = 50.0            //Progressbar Chunk width
+   public var kChunkWdith = 50.0            //Progressbar Chunk width
    public var noOfChunks = 3                //Number of Chunks to animate
     
    public override init(frame: CGRect) {
         
         super.init(frame: frame)
         self.clipsToBounds = true
-        self.trackTintColor = UIColor.white
+        self.trackTintColor = UIColor.darkGray
         self.progressTintColor = UIColor.white
         self.hideWhenStopped = true
         self.isHidden = true
@@ -45,12 +45,12 @@ public class HorizontalProgressbar: UIView {
      */
     
     // Set tint color for track animation
-    func trackTintColour (tintColor : UIColor) {
+    func trackTintColor (tintColor : UIColor) {
         
         trackTintColor = tintColor
     }
     // Set background color for track
-    func ProgressTintColour (tintColor : UIColor) {
+    func progressTintColor (tintColor : UIColor) {
         progressTintColor = tintColor
     }
     // To begin animation
