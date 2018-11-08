@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'HorizontalProgressBar_Example' do
+  pod 'HorizontalProgressBar', :path => '../'
+
+  target 'HorizontalProgressBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

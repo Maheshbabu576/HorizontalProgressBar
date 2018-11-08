@@ -1,0 +1,16 @@
+PODS:
+  - HorizontalProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalProgressBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HorizontalProgressBar: 5516d8869ef000c368b36901a8b3fff0124c9c58
+
+PODFILE CHECKSUM: 704529f52f18192aa6256fca0b89ac3de9c5330f
+
+COCOAPODS: 1.5.3
