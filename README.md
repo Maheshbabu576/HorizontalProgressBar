@@ -1,1 +1,1 @@
-# HorizontalProgressBarSpec
+# HorizontalProgressBar
