@@ -1,7 +1,11 @@
-# HorizontalProgressBar (Beta)
+# HorizontalProgressBar
 
 
 A Horizontal progress bar for iOS written in Swift.
+
+# Sample Screen
+
+https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/HorizontalProgressbar.mov
 
 
 # usage
