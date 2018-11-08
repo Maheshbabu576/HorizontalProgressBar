@@ -15,13 +15,18 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         
-         let progressBar = HorizontalProgressbar(frame: CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! - 2, width: (self.navigationController?.navigationBar.frame.size.width)!, height: 3))
-        
-        self.navigationController?.navigationBar.addSubview(progressBar)
+         let progressBar = HorizontalProgressbar(frame: CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! - 3, width: (self.navigationController?.navigationBar.frame.size.width)!, height: 3))
        
+        self.navigationController?.navigationBar.addSubview(progressBar)
+      
+        progressBar.noOfChunks = 2
+        progressBar.kChunkWdith = 40
+        progressBar.progressTintColor = UIColor.white
+        progressBar.trackTintColor = UIColor.darkGray
+        
         progressBar.startAnimating()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 20) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
             // your code here
             progressBar.stopAnimating()
         }
