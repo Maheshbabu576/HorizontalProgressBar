@@ -1,4 +1,4 @@
-# HorizontalProgressBar
+# Horizontal Progress Bar
 
 
 A Horizontal progress bar for iOS written in Swift.
