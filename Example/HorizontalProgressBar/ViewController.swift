@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         progressBar.kChunkWdith = 40
         progressBar.progressTintColor = UIColor.white
         progressBar.trackTintColor = UIColor.darkGray
+        progressBar.loadingStyle = .determine
         
         progressBar.startAnimating()
         
