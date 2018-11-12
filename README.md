@@ -5,12 +5,13 @@ A Horizontal progress bar for iOS written in Swift.
 
 # Sample Screen
 
-https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/HorizontalProgressbar.mov
+![alt text](https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/Sample.gif)
+
 
 
 # usage
 
-Initialise 
+Initialization 
 
      let progressBar = HorizontalProgressbar(frame: CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! - 3, width: (self.navigationController?.navigationBar.frame.size.width)!, height: 3)    self.navigationController?.navigationBar.addSubview(progressBar)
  
