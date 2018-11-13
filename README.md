@@ -5,8 +5,7 @@ A Horizontal progress bar for iOS written in Swift.
 
 # Sample Screen
 
-![alt text](https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/Sample.gif)
-
+ ![Alt Text](https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/Sample.gif)  ![Alt Text](https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/Sample1.gif)  ![Alt Text](https://github.com/Maheshbabu576/HorizontalProgressBar/blob/master/Screens/Sample2.gif)
 
 
 # usage
@@ -29,6 +28,7 @@ Initialization
     progressBar.kChunkWdith = 50 // Adjust the width of Chunks/Strips
     progressBar.progressTintColor = UIColor.white  // To change the Chunks color
     progressBar.trackTintColor = UIColor.darkGray  // To change background color of loading indicator
+    progressBar.loadingStyle = .indetermine    // Choose loading styles from determine , indetermine , fill
     
     
  # Installation
