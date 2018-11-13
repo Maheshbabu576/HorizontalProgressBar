@@ -27,8 +27,8 @@ Initialization
    
     progressBar.noOfChunks = 2   // You can provide number of Chunks/Strips appearing over the animation. By default it is 3 
     progressBar.kChunkWdith = 50 // Adjust the width of Chunks/Strips
-    progressBar.progressTintColor = UIColor.white  // To chnage the Chunks color
-    progressBar.trackTintColor = UIColor.darkGray  // To chnage background color of loading indicator
+    progressBar.progressTintColor = UIColor.white  // To change the Chunks color
+    progressBar.trackTintColor = UIColor.darkGray  // To change background color of loading indicator
     
     
  # Installation
