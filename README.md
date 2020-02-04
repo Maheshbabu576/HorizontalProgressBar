@@ -12,7 +12,8 @@ A Horizontal progress bar for iOS written in Swift.
 
 Initialization 
 
-     let progressBar = HorizontalProgressbar(frame: CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! - 3, width: (self.navigationController?.navigationBar.frame.size.width)!, height: 3)   
+    let progressBar = HorizontalProgressbar(frame: CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! - 3, width: (self.navigationController?.navigationBar.frame.size.width)!, height: 3))
+     
      self.navigationController?.navigationBar.addSubview(progressBar)
  
  To Start Animation 
